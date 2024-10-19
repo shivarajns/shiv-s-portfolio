@@ -43,9 +43,10 @@ ul{
     list-style: none;
 }
 main{
-    width: 100%;
+    width:100%;
     height: auto;
     display: flex;
+
 }
 .photo{
     width: 50%;
@@ -69,10 +70,10 @@ main{
     
 }
 .bio{
-    width: 50%;
+    width: 45%;
     height: auto;
     margin: 90px 0px 0px 0px;
-    padding: 30px;
+    padding: 30px 0px 0px 0px;
     text-align: center;
 }
 .bio p{
@@ -81,6 +82,7 @@ main{
     word-spacing: 2px;
     line-height: 2;
     text-align: center;
+    
 }
 .ul ul li a{
     color: rgb(255, 255, 255);
@@ -103,6 +105,21 @@ main{
 }
 .ul ul li a:hover{
     color: rgb(255, 145, 145);
+}
+footer{
+    margin-top: 200px;
+    padding: 20px;
+    font-size: 0.8vw;
+}
+
+
+
+.projectsh1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -151,8 +168,9 @@ main{
         width: 50vw;
     }
     .bio{
-        width:auto;
+        width:90%;
         margin-top: 0px;
+        margin: auto;
     }
     .bio h1{
         font-size: 4vw;
@@ -182,5 +200,17 @@ main{
     }
     .ul ul li a:hover{
         color: rgb(255, 145, 145);
+    }
+    .projectsh1{
+        font-size: 2.5vw;
+        width: 90%;
+        padding: 5%;
+    }
+
+
+
+
+    footer{
+        font-size: 1.2vw;
     }
 }
