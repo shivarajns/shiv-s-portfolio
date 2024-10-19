@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(0, 0, 50);
+    color:white;
+    font-family: "Poppins", sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    width: 100%;
+    height:90px;
+    display: flex;
+}
+.navleft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.navright{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+main{
+    width:100%;
+    height: auto;
+    flex-direction: row;
+    display: flex;
+
+    
+
+}
+.photo{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 90px 0px 0px 0px;
+  
+}
+
+.photocnt img{
+    width: 30vw;
+    height: auto;
+    animation: background 2s infinite ease-in-out;
+    border-radius:90px ;
+}
+@keyframes background {
+    0% {background-color: rgb(14, 14, 96);}
+    50%{background-color: rgb(164, 199, 255);}
+    100%{background-color: rgb(38, 38, 96);}
+    
+}
+.bio{
+    width: 45%;
+    height: auto;
+    margin: 90px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+.bio p{
+    width: 100%;
+    margin-top: 50px;
+    word-spacing: 2px;
+    line-height: 2;
+    text-align: center;
+    
+}
+.ul ul li a{
+    color: rgb(255, 255, 255);
+    position: relative;
+    
+
+}
+.ul ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+.ul ul li a:hover::after{
+    width: 100%;
+}
+.ul ul li a:hover{
+    color: rgb(255, 145, 145);
+}
+footer{
+    margin-top: 200px;
+    padding: 20px;
+    font-size: 0.8vw;
+}
+
+
+
+.projectsh1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillscontmain{
+    width: 100%;
+    height:fit-content;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.skillscards{
+    width:20%;
+    height:fit-content;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.skillscont{
+    width: 90%;
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.skillscont img{
+    height: 90%;
+    width: 60%;
+    border:2px solid rgb(161, 161, 161);
+    border-radius: 20px;
+    padding: 40px;
+    
+} 
+.skillscont h3{
+    margin-top: 10px;
+}
+.skillscont p{
+    margin: 10px;
+}
+.skillspythoncertificate{
+    width: 100%;
+    height:fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top:30px;
+}
+.skillspythoncertificatecnt1 img{
+    width:70%;
+    height: 70%;
+    margin-top: 20px;
+}
+.skillspythoncertificate h2{
+    margin-top: 100px;
+}
+.skills{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+}
+
+
+.contact{
+    width: 100%;
+    height:100vh;
+}
+.form{
+    width: 40%;
+    height: fit-content;
+    background-color: rgb(219, 226, 255);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.formdet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.formdet label{
+    font-size: 1vw;
+    font-weight: 600;
+    margin: 5px;
+}
+.formdet input{
+    width: 20vw;
+    height: 2vw;
+}
+.submitt{
+    width: 100%;
+    height:2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.submitt input{
+    width: 20%;
+    height: 100%;
+    font-weight: bolder;
+    transition: color 2s;
+}
+.submitt input:hover{
+    background-color: rgb(180, 180, 255);
+}
+.contactfooter{
+    height: fit-content;
+    margin: 0px;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+}
+.contactfootercont1{
+    width: 40%;
+    height: 5vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contactfootercont1 ul {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+.contactfooter-cont2{
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    margin-left: -300px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header{
+        display: flex;
+        
+    }
+    .navleft{
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 4vw;
+    }
+    .navright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vw;
+    }
+    li{
+        font-size: 2vw;
+    }
+    ul{
+        gap: 4vw;
+    }
+    main{
+        flex-direction: column;
+        
+    }
+    .photo{
+        width: 100%;
+        height: 55vw;
+        margin:10px 0 0 0;
+       
+    }
+    .photocnt img{
+        width: 50vw;
+    }
+    .bio{
+        width:90%;
+        margin-top: 0px;
+        margin: auto;
+    }
+    .bio h1{
+        font-size: 4vw;
+    }
+    .bio p{
+        font-size: 2.5vw;
+        margin-top: 3vw;
+    }
+    .ul ul li a{
+        color: rgb(255, 255, 255);
+        position: relative;
+        
+    
+    }
+    .ul ul li a::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: red;
+        bottom: 0;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    .ul ul li a:hover::after{
+        width: 100%;
+    }
+    .ul ul li a:hover{
+        color: rgb(255, 145, 145);
+    }
+    .projectsh1{
+        font-size: 2.5vw;
+        width: 90%;
+        padding: 5%;
+    }
+    .skillscontmain{
+        width:100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position:relative;
+        margin-top: -60px;
+        z-index: -1;
+    }
+    .skillscards{
+        width: 50%;
+        height:fit-content;
+        margin: auto;
+        padding-top:0px ;
+        margin-top: 20px;
+        font-size: 4vw;
+    }
+    .skillspythoncertificate{
+        margin-top: -70px;
+    }
+    .skillspythoncertificate h2{
+        font-size: 6vw;
+    }
+    .form{
+        width: 70%;
+        height: fit-content;
+    }
+    .form h3{
+        font-size: 3.5vw;
+    }
+    .formdet label{
+        font-size: 2.8vw;
+    }
+    .formdet input{
+        width: 40vw;
+        height: 4vw;
+        font-size: 2.6vw;
+    }
+    .submitt{
+        width: 100%;
+        height: 6vw;
+    }
+    .submitt input{
+        font-size: 3vw;
+    }
+    .formdet textarea{
+        width: 100%;
+        font-size: 2.6vw;
+    }
+    .contactfooter{
+        height: fit-content;
+        margin: 0px;
+        color: white;
+        display: flex;
+        justify-content:space-around;
+    }
+    .contactfootercont1{
+        width: 40%;
+        height: 5vh;    
+        display: flex;
+    }
+    .contactfootercont1 ul {
+        display: flex;
+        justify-content: right;
+    }
+    .contactfooter-cont2{
+        width: 50%;
+        display: flex;
+        justify-content:left;
+        margin-left: auto;
+        font-size: 2vw;
+        
+    }
+    
+
+
+
+
+    footer{
+        font-size: 1.2vw;
+        margin-top: 10vh;
+    }
+}
